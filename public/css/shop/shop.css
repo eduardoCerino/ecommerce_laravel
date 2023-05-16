@@ -1,0 +1,162 @@
+body{
+    font-family: system-ui;
+    margin: 0;
+    padding: 0;
+}
+
+.product1 {
+        height: 100vh;
+        background: linear-gradient(90deg, #ffff 60%, #5555ea 0%);
+        display: flex;
+}
+.product2 {
+    height: 100vh;
+    background: linear-gradient(90deg, #ff6e08 60%, #ffff 0%);
+    display: flex;
+    font-family: system-ui;
+    margin: 0;
+    padding: 0;
+    color: #FFFF;
+}
+.product3 {
+    height: 100vh;
+    background: linear-gradient(90deg, #ffff 60%, #66ce56 0%);
+    display: flex;
+}
+      
+
+.product-title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        font-weight: 600;
+        letter-spacing: -0.015em;
+}
+img {
+        width: 60rem;
+}
+.info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5rem;
+}
+#myButton1,#myButton2, #myButton3  {
+        background-color: #5555ea;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        border-radius: 90px;
+        margin-top: 4px;
+        width:35%;
+        border-color: transparent;
+}
+#myButton2 {     
+    background-color: #ffff;
+    color: #ff6e08;
+}
+#myButton3 {     
+    background-color: #66ce56;
+    color: #ffff;
+}
+
+
+
+.stars i {
+        color: #f6a700;
+}
+.price{
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        font-weight: 500;
+}
+.description{
+    width: 60%;
+}
+
+
+nav {
+        background-color: #fff;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+      }
+      
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      nav ul li {
+        margin: 0 10px;
+      }
+      
+      nav ul li a {
+        color: #333;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        transition: color 0.3s;
+      }
+      
+      nav ul li a:hover {
+        color: #0077b6;
+      }
+      
+
+
+
+      /* Estilo base para el elemento select */
+select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-color: #fff;
+        border: 2px solid #8989eb;
+        padding: 10px 15px 10px 15px;
+        font-size: 16px;
+        border-radius: 90px;
+        cursor: pointer;
+        position: relative;
+        margin-right: 25px;
+      }
+      
+      /* Estilo para el placeholder del elemento select */
+      option[disabled]:first-child {
+        display: none;
+      }
+      
+      /* Estilo del elemento select cuando se hace hover */
+      select:hover {
+        background-color: #eee;
+      }
+      
+      /* Estilo del elemento select cuando está enfocado */
+      select:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(66, 133, 244, 0.3);
+      }
+      
+      /* Estilo del elemento select cuando se abre */
+      select:active,
+      select:focus {
+        background-color: #fff;
+      }
+      
+      /* Estilo de la flecha del elemento select */
+      select::after {
+        content: "\25BC";
+        font-size: 16px;
+        color: #333;
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+      }
+      
+     
